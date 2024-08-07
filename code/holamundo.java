@@ -5,7 +5,7 @@ public class HolaMundo {
         String mensaje = "Hola, Mundo";
         // Usando una función de la librería Apache Commons Lang para invertir el mensaje
         String mensajeInvertido = StringUtils.reverse(mensaje);
-        System.out.println("Mensaje original: " + mensaje);
-        System.out.println("Mensaje invertido: " + mensajeInvertido);
+        System.out.println("Mensaje original:" + mensaje);
+        System.out.println("Mensaje invertido:" + mensajeInvertido);
     }
 }
